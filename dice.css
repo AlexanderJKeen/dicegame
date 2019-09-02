@@ -1,16 +1,36 @@
-/* body {
+body {
+background-image: url(./img/scary.jpg)
+} 
+#text{
+position: relative;
+left:40vw;
+}
+#flexBox{
+    display: flex;
+    flex:table-row;
+}
 
-} */
-
-/* #dice1{
-    
+ #button1{
+position: relative;
 height:200px;
 width:200px;
+left:25vw;
+top:10vw;
 }
-/* #dice2{
+ #button2{
+    position: relative;
+    height:200px;
+    width:200px;
+    left:50vw;
+    top:10vw;
+} 
+#score-1{
+    color: red;
+}
+#score-2{
+    color: red;
+}
 
-} */
-
-/*h1 {
+h1 {
 color: red;
-} */
+}
